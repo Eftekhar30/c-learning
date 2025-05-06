@@ -13,6 +13,6 @@ int power(){
     int a,b;
     scanf("%d", &a);
     scanf("%d", &b);
-    int power = pow(a,b);
+    int power = pow(a,b); 
     return power;
 }
