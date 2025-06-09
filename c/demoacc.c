@@ -47,21 +47,22 @@ void input(){
         printf("password doesn't match..\n");
         return;
     }
-    printf("\nenter your birth date(day): ");
+    printf("\nenter your birthday: \n");
+    printf("         day: ");
     scanf("%d", &user.birth.day);
-    printf("enter your birth month: ");
+    printf("         month: ");
     scanf("%d", &user.birth.month);
-    printf("enter your birth year: ");
+    printf("         year: ");
     scanf("%d", &user.birth.year);
     printf("enter your sex (if male press m/M or f/F for female): ");
     getchar();
     scanf("%c", &sexchk);
 
     if(sexchk == 'm' || sexchk == 'M'){
-        user.sex.male = 1;    // Use = for assignment
+        user.sex.male = 1;    
         user.sex.female = 0;
     } else if(sexchk == 'f' || sexchk == 'F'){
-        user.sex.female = 1;  // Use = for assignment
+        user.sex.female = 1; 
         user.sex.male = 0;
     } else {
         printf("wrong input\n");
@@ -82,27 +83,14 @@ void output(){
     }
 }
 void pass(char pass[]) {
+    int i=0;
     char ch;
-    int i;
-    
-    for(i = 0; i < 19; i++) { 
+    while(1){
         ch = getch();
-        
-        if(ch == 13) {  
+        if(ch==13)
             break;
-        }
-        
-        if(ch == 8) {
-            if(i > 0) {
-                i--;
-                printf("\b \b");
-            }
-            i--;  
-            continue;
-        }
-        
         putchar('*');
-        pass[i] = ch;
+        pass[i++]=ch;
     }
     pass[i] = '\0';
 }

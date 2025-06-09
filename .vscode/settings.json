@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "PS1.C": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp"
     }
 }
