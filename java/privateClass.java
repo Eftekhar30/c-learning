@@ -5,14 +5,14 @@ class human
     private String email;
     private int roll;
 
-    public void setName(String n){
-        name = n;
+    public void setName(String name){
+        this.name = name;
     }
-    public void setEmail(String Email){
-        email = Email;
+    public void setEmail(String email){
+        this.email = email;
     }
-    public void setRoll(int Roll){
-        roll = Roll;
+    public void setRoll(int roll){
+        this.roll = roll;
     }
     public String getName(){
         return name;
