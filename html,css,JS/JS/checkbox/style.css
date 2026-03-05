@@ -1,0 +1,26 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+#sub{
+    padding: 5px;
+    border-radius: 7px;
+    margin: 5px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97.9vh;
+}
+#inbox{
+    max-width: 300px;
+    border: 2px solid black;
+    margin : auto;
+}
+#subResult{
+    font-size: x-small;
+}
+#paymentResult{
+    font-size: x-small;
+}

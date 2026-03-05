@@ -1,0 +1,13 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#roll{
+    font-size: 2em;
+    padding:  5px 20px;
+    border-radius: 5px;
+}
+.labels{
+    font-size: 2em;
+}
