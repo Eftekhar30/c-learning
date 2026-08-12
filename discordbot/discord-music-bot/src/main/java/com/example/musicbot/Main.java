@@ -10,7 +10,7 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 public class Main {
     public static void main(String[] args) {
-        String token = "MTQwMTIwOTcwOTM2MDQ1MTU4NA.Gh0hHH.PJwBR6G0Zb_vQWaDFYzdhy7sG1AwdDn9uvs-j4";
+        String token = "";
 
         try {
             JDABuilder builder = JDABuilder.createDefault(token)
