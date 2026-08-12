@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Eftekhar",
+    "role": "Admin"
+  },
+  {
+    "id": 2,
+    "name": "Alice",
+    "role": "Guest"
+  },
+  {
+    "id": 3,
+    "name": "Bob",
+    "role": "Editor"
+  },
+  {
+    "id": 4,
+    "name": "newbie",
+    "role": "senior mod"
+  }
+]

@@ -1,0 +1,7 @@
+Mongodb
+
+username: eftekharhossain30_db_user
+password: H3hbg5hoRH5tS0hg
+
+
+mongodb+srv://eftekharhossain30_db_user:H3hbg5hoRH5tS0hg@cluster0.t9pgiow.mongodb.net/smart_management?retryWrites=true&w=majority
